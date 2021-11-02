@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(44, 39, 39);
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    border-radius: 4px;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    margin:auto;
+    background-color: rgb(85, 84, 84);
+    color: cyan;
+    padding-bottom: 5vh;
+}
+
+#title{
+    border-radius: 4px;
+    color: rgb(44, 39, 39);
+    background-color: cyan;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    width: 100%;
+    border: 1px solid cyan;
+}
+#matrice{
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+}
+
+#matrice p{
+    margin-left: 5%;
+    width: 26%;
+}
+
+.matricesText{
+    display: flex;
+    flex-direction: row;
+}
+
+.matricesText input{
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin-left: 28%;
+    border-radius: 4px;
+    background-color: rgb(44, 39, 39);
+    color: cyan;
+}
+#choix{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vh;
+    justify-content: center;
+}
+.op{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 20%;
+    background-color: rgb(44, 39, 39);
+    color: cyan;
+    border: none;
+    border-radius: 4px;
+}
+#btnAdd{
+    background-color: cyan;
+    color: rgb(44, 39, 39);
+}
+#divBtn{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    width: 40%;
+    justify-content: center;
+    border-radius:4px;
+    background-color: cyan;
+    color: rgb(44, 39, 39);
+    border: 3px solid rgb(85, 84, 84);
+
+}
+#load{
+    margin: auto;
+    margin-top: 5vh;
+    display: none;
+}
+
+@media screen and (max-width: 1065px) {
+    #menu{
+        border-radius: 4px;
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: center;
+        margin:auto;
+        background-color: rgb(85, 84, 84);
+        color: cyan;
+        padding-bottom: 5vh;
+        
+    }
+    #title{
+        border-radius: 4px;
+        color: rgb(44, 39, 39);
+        background-color: cyan;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        width: 100%;
+        border: 1px solid cyan;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    #menu{
+        border-radius: 4px;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        margin:auto;
+        background-color: rgb(85, 84, 84);
+        color: cyan;
+        padding-bottom: 5vh;
+    }
+    #title{
+        border-radius: 4px;
+        color: rgb(44, 39, 39);
+        background-color: cyan;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        width: 100%;
+        border: 1px solid cyan;
+    }
+    .matricesText{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #matrice p{
+        margin-left: 0px;
+        width: auto;
+    }
+    #matriceText2{
+        margin-top: 2vh;
+    }
+    .matricesText input{
+        text-align: center;
+        width: auto;
+        height: 30px;
+        margin:auto;
+        border-radius: 4px;
+        background-color: rgb(44, 39, 39);
+        color: cyan;
+    }
+    #choix{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .op{
+        margin: auto;
+        margin-top: 1vw;
+        width: 60%;
+        background-color: rgb(44, 39, 39);
+        color: cyan;
+        border: none;
+        border-radius: 4px;
+    }
+  }
